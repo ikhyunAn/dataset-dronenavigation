@@ -1,0 +1,10 @@
+####################
+# CAMERA PARAMETER #
+####################
+
+/multicopter_unity_sim/camera/image_width: 320
+/multicopter_unity_sim/camera/image_height: 240
+/multicopter_unity_sim/camera/camera_matrix: [250.0, 0.0, 159.5, 0.0, 250.0, 119.5, 0.0, 0.0, 1.0]
+/multicopter_unity_sim/camera/distortion_model: radtan
+/multicopter_unity_sim/camera/distortion_coefficients: [0.0, 0.0, 0.0, 0.0, 0.0]
+

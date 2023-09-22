@@ -1,0 +1,35 @@
+########################
+# SIMULATION PARAMETER #
+########################
+
+
+# TCP connection settings
+/multicopter_unity_sim/TCP/server_ip: 10.0.0.7
+/multicopter_unity_sim/TCP/port_image: 50000
+/multicopter_unity_sim/TCP/port_pose: 50001
+
+# Published topic names
+/multicopter_unity_sim/topic/topic_name_state_pub: /multicopterStateVectorModified
+/multicopter_unity_sim/topic/topic_name_state_sub: /multicopterStateVectorSimulink
+/multicopter_unity_sim/topic/topic_name_imu: /mus/imu
+/multicopter_unity_sim/topic/topic_name_image: /mus/image
+/multicopter_unity_sim/topic/topic_name_gt_pose: /mus/ground_truth_pose_imu
+/multicopter_unity_sim/topic/transform_ch_frame_name_ground_truth: /mus/imu_frame_gt
+/multicopter_unity_sim/topic/transform_pa_frame_name_ground_truth: /world
+
+# Publishing rates
+/multicopter_unity_sim/frequency/f_imu: 500
+/multicopter_unity_sim/frequency/f_image: 100
+/multicopter_unity_sim/frequency/f_ground_truth: 500
+
+# ROS bag output settings
+/multicopter_unity_sim/settings/bag_saving_directory: /home/cns-nb12/Datasets/MCS_Run_15_Res_60Hz
+
+# Multiple scenes
+/multicopter_unity_sim/settings/multiple_scenes: true
+
+# Simulation mode
+# 1: Live mode
+# 2: Bag mode
+# 3: Ctrl mode
+/multicopter_unity_sim/settings/mode: 2
